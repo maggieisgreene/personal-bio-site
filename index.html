@@ -1,14 +1,56 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>newness</title>
-    <link rel="stylesheet" href="./main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- TODO: Insert a title for your page -->
+  <title>MG</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
-    <h1>Maggie Is In The House</h1>
-    <script src="./main.js"></script>
+  <!-- Navigation -->
+  <nav>
+    <!-- TODO: Insert some sort of H1-H6 with your name here -->
+    <h1 id="main-header">Maggie Greene</h1>
+    <ul id="navLinks">
+      <li><a id="navToBio">Bio</a></li>
+      <li><a id="navToTechnologies">Technologies</a></li>
+      <li><a id="navToProjects">Projects</a></li>
+    </ul>
+  </nav>
+  <!-- End Navigation -->
+
+  <!-- Primary View -->
+  <div class="fullPage" id="bioPage">
+    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+    <p id="aboutMe">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+  </div>
+  <div class="fullPage" id="technologiesPage">
+    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+    <ul>
+        <li>Github</li>
+        <li>Javascript basics</li>
+        <li>CSS basics</li>
+        <li>Looping and stuff</li>
+    </ul>
+  </div>
+  <div class="fullPage" id="projectsPage"></div>
+  <!-- End Primary View -->
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+    <ul id="footerLinks">
+        <li><a class="footer-links">Twitter</a></li>
+        <li><a class="footer-links">LinkedIn</a></li>
+        <li><a class="footer-links">Github</a></li>
+        <li><a class="footer-links">Contact Me</a></li>
+    </ul>
+  </footer>
+  <!-- End Footer -->
+  <script src="./main.js"></script>
 </body>
 </html>

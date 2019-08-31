@@ -1,3 +1,42 @@
 body {
-    background-color: papayawhip;
+    background-color: #fbf9f8;
+    color: #262626;
+    font-family: 'Karla', sans-serif;
+}
+
+#main-header {
+    display: flex;
+    justify-content: center;
+}
+
+#navLinks {
+    background-color: #fbf9f8;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#aboutMe {
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#footerLinks {
+    background-color: #fbf9f8;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 14px;
+    text-decoration: none;
 }
