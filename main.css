@@ -6,6 +6,8 @@ body {
 
 #main-header {
     display: flex;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
     justify-content: center;
 }
 
@@ -24,10 +26,25 @@ body {
     background-color: gainsboro;
     border: 2px solid gainsboro;
     border-radius: 10px;
+    display: inline-block;
     font-size: 15px;
     margin: 10px;
     padding: 20px;
     text-align: center;
+}
+
+#learnedThings {
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+#learnedThings li:before { 
+    content: "- ";
 }
 
 #footerLinks {
@@ -39,4 +56,20 @@ body {
     margin: 20px;
     font-size: 14px;
     text-decoration: none;
+}
+
+#projectsPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#card {
+    text-align: center;
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 10px;
+    padding: 20px;
+    /* width: 480px; */
 }
