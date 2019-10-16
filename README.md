@@ -4,7 +4,7 @@
 Use this application to learn about me and see projects I have completed over the past few months!
 
 ## Screenshots
-![Personal-Bio-Site Preview]()
+![Personal-Bio-Site Preview](https://raw.githubusercontent.com/maggieisgreene/personal-bio-site/master/screenshots/personal-bio-preview.png)
 
 ## How to run
 * Clone down this project
