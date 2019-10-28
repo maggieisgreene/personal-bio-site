@@ -1,4 +1,4 @@
-const projects = [
+const projectsArr = [
     {
         title: "Cool Project", 
         screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
@@ -76,4 +76,34 @@ const createProjectCards = (arr) => {
     printToDom(domString, 'projectsPage');
 }
 
-createProjectCards(projects);
+const bio = document.getElementById('bioPage');
+const technologies = document.getElementById('technologiesPage');
+const projects = document.getElementById('projectsPage');
+
+document.body.onload = () => {
+  technologies.style.display = 'none';
+  projects.style.display = 'none';
+}
+
+const eventListeners = document.body.addEventListener('click', (event) => {
+  event.preventDefault();
+  if (event.target.id === 'navToBio') {
+    bio.style.display = '';
+    technologies.style.display = 'none';
+    projects.style.display = 'none'
+  } else if (event.target.id === 'navToTechnologies') {
+    bio.style.display = 'none';
+    technologies.style.display = '';
+    projects.style.display = 'none'
+  } else if (event.target.id === 'navToProjects') {
+    bio.style.display = 'none';
+    technologies.style.display = 'none';
+    projects.style.display = ''
+  }
+})
+
+const init = () => {
+  createProjectCards(projectsArr);
+}
+
+init();
