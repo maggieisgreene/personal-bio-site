@@ -1,8 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-image: url('https://i.pinimg.com/474x/80/38/ed/8038ed84099623d3cf0bd7a0fc927fe2.jpg');
-    // background-repeat: no-repeat;
+    background-color: black;
+    background-image: url('https://i.pinimg.com/564x/67/e1/4c/67e14c7aceb985d7bbece2665c818e03.jpg');
+    background-repeat: repeat-x;
     color: #262626;
     font-family: 'Karla', sans-serif;
 }
@@ -16,11 +17,13 @@ body {
 }
 
 #main-header {
+    color: 262626;
     display: block;
     font-size: 60px;
     height: 100px;
     padding: 15px;
     text-align: center;
+    text-decoration: none;
 }
 
 /* a:hover {
@@ -105,4 +108,22 @@ body {
     border: 1px solid white;
     border-radius: 10px;
     padding: 4px;
+}
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+
+.nav-modal-buttons {
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+.modal-body-edit {
+    background-color: #262626;
 }
