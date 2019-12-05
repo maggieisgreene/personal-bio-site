@@ -2,8 +2,6 @@
 
 body {
     background-color: black;
-    background-image: url('https://i.pinimg.com/564x/67/e1/4c/67e14c7aceb985d7bbece2665c818e03.jpg');
-    background-repeat: repeat-x;
     color: #262626;
     font-family: 'Karla', sans-serif;
 }
@@ -17,7 +15,7 @@ body {
 }
 
 #main-header {
-    color: 262626;
+    color: #262626;
     display: block;
     font-size: 60px;
     height: 100px;
@@ -39,6 +37,12 @@ body {
     margin: 20px;
     font-size: 17px;
     text-decoration: none;
+}
+
+#homePage {
+    background-image: url('https://i.pinimg.com/564x/67/e1/4c/67e14c7aceb985d7bbece2665c818e03.jpg');
+    background-repeat: repeat-x;
+    height: 700px;
 }
 
 #aboutMe, #whyCoding {
@@ -120,10 +124,14 @@ body {
 }
 
 .nav-modal-buttons {
-    color: whitesmoke;
+    color: #d73b14;
     font-size: 60px;
 }
 
 .modal-body-edit {
-    background-color: #262626;
+    background-color: whitesmoke;
+}
+
+#topModalButton {
+    margin-top: 150px;
 }
