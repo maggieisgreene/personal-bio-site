@@ -1,16 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: #fbf9f8;
+    background-image: url('https://i.pinimg.com/474x/80/38/ed/8038ed84099623d3cf0bd7a0fc927fe2.jpg');
+    // background-repeat: no-repeat;
     color: #262626;
     font-family: 'Karla', sans-serif;
 }
 
-#main-header {
+#nav-container {
+    background-color: #d73b14;
+    border-radius: 5px;
     display: flex;
-    /* font-family: 'Alfa Slab One', cursive; */
-    font-size: 40px;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+#main-header {
+    display: block;
+    font-size: 60px;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
 }
 
 /* a:hover {
@@ -18,19 +28,19 @@ body {
   } */
 
 #navLinks {
-    background-color: #fbf9f8;
+    background-color: #d73b14;
     color: #262626;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     margin: 20px;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
 }
 
 #aboutMe, #whyCoding {
-    background-color: gainsboro;
-    border: 2px solid gainsboro;
+    background-color: #d73b14;
+    border: 2px solid #d73b14;
     border-radius: 10px;
     display: inline-block;
     font-size: 15px;
@@ -40,8 +50,8 @@ body {
 }
 
 #learnedThings {
-    background-color: gainsboro;
-    border: 2px solid gainsboro;
+    background-color: #d73b14;
+    border: 2px solid #d73b14;
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -56,19 +66,22 @@ body {
 }
 
 #footerLinks {
-    background-color: #fbf9f8;
+    background-color: #d73b14;
+    border-radius: 5px;
     color: #262626;
     display: flex;
+    font-size: 17px;
+    height: 50px;
     justify-content: space-around;
     list-style-type: none;
-    margin: 20px;
-    font-size: 14px;
+    margin: 40px;
+    padding: 10px;
     text-decoration: none;
 }
 
 .footer-links {
-    text-decoration: none;
     color: #262626;
+    text-decoration: none;
 }
 
 #projectsPage {
@@ -78,8 +91,8 @@ body {
 
 #card {
     text-align: center;
-    background-color: gainsboro;
-    border: 2px solid gainsboro;
+    background-color: #d73b14;
+    border: 2px solid #d73b14;
     border-radius: 10px;
     font-size: 14px;
     margin: 10px;
