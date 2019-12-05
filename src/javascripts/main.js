@@ -1,3 +1,5 @@
+import 'bootstrap';
+import '../styles/main.scss';
 import projects from './components/projects';
 
 const bio = document.getElementById('bioPage');
@@ -6,7 +8,7 @@ const projectsPage = document.getElementById('projectsPage');
 
 document.body.onload = () => {
   technologies.style.display = 'none';
-  projects.style.display = 'none';
+  projectsPage.style.display = 'none';
 };
 
 document.body.addEventListener('click', (event) => {
