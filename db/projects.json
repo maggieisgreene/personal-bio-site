@@ -1,21 +1,21 @@
 {
   "project-1": {
-      "title": "Cool Project", 
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "title": "Pinteresting", 
+      "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png", 
+      "description": "This project is a mockup of Pinterest. Login and create boards to save unlimited inspiration.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
       "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://pinterest-c2e77.firebaseapp.com/",
+      "githubUrl": "https://github.com/maggieisgreene/pinterest"
   },
   "project-2": {
-      "title": "Cool Project", 
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "title": "Jurassic Park", 
+      "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png", 
+      "description": "This application is built for the Jurassic World Theme Park. For owner-side use.",
+      "technologiesUsed": "HTML, SASS, Vanilla JavaScript, jQuery, Version Control with Github",
       "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://jurassic-park-26ffa.firebaseapp.com/",
+      "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
   },
     "project-3": {
     "title": "Cool Project", 

@@ -13,9 +13,14 @@ const createProjectCards = () => {
         if (project) {
           domString += `
               <div id="card">
-                  <h3>${project.title}</h3>
-                  <h4>${project.description}</h4>
+                <img src=${project.screenshot} class="card-img-top" alt="Image of ${project.title}">
+                  <h2>${project.title}</h2>
+                  <h5>${project.description}</h5>
                   <p>${project.technologiesUsed}</p>
+                  <div class="card-button-container">
+                    <a href=${project.githubUrl} class="btn btn-light">Github</a>
+                    <a href=${project.url} class="btn btn-light">Deployed</a>
+                  </div>
               </div>
             `;
         }

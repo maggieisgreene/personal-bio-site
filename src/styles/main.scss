@@ -7,7 +7,8 @@ body {
 }
 
 #nav-container {
-    background-color: #d73b14;
+    // background-color: #d73b14;
+    background-color: gainsboro;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,8 @@ body {
   } */
 
 #navLinks {
-    background-color: #d73b14;
+    // background-color: #d73b14;
+    background-color: gainsboro;
     color: #262626;
     display: flex;
     justify-content: space-around;
@@ -46,8 +48,10 @@ body {
 }
 
 #aboutMe, #whyCoding {
-    background-color: #d73b14;
-    border: 2px solid #d73b14;
+    // background-color: #d73b14;
+    // border: 2px solid #d73b14;
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
     border-radius: 10px;
     display: inline-block;
     font-size: 15px;
@@ -57,8 +61,10 @@ body {
 }
 
 #learnedThings {
-    background-color: #d73b14;
-    border: 2px solid #d73b14;
+    // background-color: #d73b14;
+    // border: 2px solid #d73b14;
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -73,7 +79,8 @@ body {
 }
 
 #footerLinks {
-    background-color: #d73b14;
+    // background-color: #d73b14;
+    background-color: gainsboro;
     border-radius: 5px;
     color: #262626;
     display: flex;
@@ -98,18 +105,18 @@ body {
 
 #card {
     text-align: center;
-    background-color: #d73b14;
-    border: 2px solid #d73b14;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
     border-radius: 10px;
     font-size: 14px;
     margin: 10px;
-    padding: 20px;
+    // padding: 20px;
     /* width: 480px; */
 }
 
 #card h3 {
-    background-color: white;
-    border: 1px solid white;
+    // background-color: white;
+    // border: 1px solid white;
     border-radius: 10px;
     padding: 4px;
 }
@@ -124,12 +131,12 @@ body {
 }
 
 .nav-modal-buttons {
-    color: whitesmoke;
+    color: white;
     font-size: 60px;
 }
 
 .modal-body-edit {
-    background-color: #262626;
+    background-color: black;
 }
 
 #topModalButton {
@@ -137,5 +144,5 @@ body {
 }
 
 .redness {
-    color: #d73b14;
+    color: yellow;
 }
