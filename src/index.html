@@ -16,64 +16,74 @@
     <h1 id="main-header"><a id="navToHome">Mags.</h1></a></h1>
       <ul id="navLinks">
         <div id="nav-link-container">
-        <button id="navToModal" class="btn" href="#myModal" data-toggle="modal"><i class="fas fa-align-justify"></i></button>
+        <a id="navToModal" class="btn btn-light" href="#myModal" data-toggle="modal"><i class="fas fa-align-justify"></i></a>
         </div>
       </ul>
   </div>
   </nav>
 
-  <div class="fullPage" id="homePage">
+  <div class="fullPage" id="homePage"></div>
 
+  <div id="bio-container" class="fullPage">
+    <h1 id="bio-header">Bio</h1>
+    <div id="bioPage">
+      <p id="aboutMe">Welcome, my name is Maggie and this is a rough draft. I am a model turned software developer from Nashville, Tennessee. For the past three years, I have lived between New York City, Los Angeles, and London while traveling elsewhere for work. Modeling has given me a sense of independence, knowledge of real world problem solving, and some of the best memories of my life. However, for these past three years, I have longed to grow intellectually besides reading books on airplanes and keeping up with the news. 
+        For as long as I can remember, I have been interested in coding. The complexity and power of what looks somewhat like gibberish to the outside world ignited interest immediately. The idea that you could make something from nothing, and not just something, something great. When I heard about NSS I knew it was the path I was going to take, and I am eternally grateful for the opportunity they have given me. From the first week of class and ever since, I have been passionate about writing code that makes something great. Now, I code. What’s your super power?
+      </p>
+    </div>
   </div>
-  <div class="fullPage" id="bioPage">
-    <p id="aboutMe">Welcome, my name is Maggie and this is a rough draft. I am a model turned software developer from Nashville, Tennessee. For the past three years, I have lived between New York City, Los Angeles, and London while traveling elsewhere for work. Modeling has given me a sense of independence, knowledge of real world problem solving, and some of the best memories of my life. However, for these past three years, I have longed to grow intellectually besides reading books on airplanes and keeping up with the news. 
-For as long as I can remember, I have been interested in coding. The complexity and power of what looks somewhat like gibberish to the outside world ignited interest immediately. The idea that you could make something from nothing, and not just something, something great. When I heard about NSS I knew it was the path I was going to take, and I am eternally grateful for the opportunity they have given me. From the first week of class and ever since, I have been passionate about writing code that makes something great. Now, I code. What’s your super power?
-    </p>
+
+  <div id="technologies-container" class="fullPage">
+    <h1 id="tech-header">Technologies Learned</h1>
+    <div id="technologiesPage">
+        <ul id="learnedThings">
+            <li>Github</li>
+            <li>Script of Java</li>
+            <li>CSS stuff</li>
+            <li>Looping and stuff</li>
+            <li>no way its awesum</li>
+            <li>JAVASCRIPT basics</li>
+            <li>CSS for dummies</li>
+            <li>Furreal Friends</li>
+            <li>Hub of Git</li>
+            <li>Javascript for losers</li>
+            <li>CSS ISAWESOME</li>
+            <li>Mags Greene</li>
+        </ul>
+    </div>
   </div>
-  <div class="fullPage" id="technologiesPage">
-    <ul id="learnedThings">
-        <li>Github</li>
-        <li>Script of Java</li>
-        <li>CSS stuff</li>
-        <li>Looping and stuff</li>
-        <li>no way its awesum</li>
-        <li>JAVASCRIPT basics</li>
-        <li>CSS for dummies</li>
-        <li>Furreal Friends</li>
-        <li>Hub of Git</li>
-        <li>Javascript for losers</li>
-        <li>CSS ISAWESOME</li>
-        <li>Mags Greene</li>
-    </ul>
+
+  <div id="projects-container" class="fullPage">
+    <h1 id="projects-header">Projects</h1>
+    <div id="projectsPage"></div>
   </div>
-  <div class="fullPage" id="projectsPage"></div>
 
   <footer class="page-footer">
     <ul id="footerLinks">
         <li><a href="https://twitter.com/maggiegre3ne" class="footer-links">Twitter</a></li>
-        <li><a class="footer-links">LinkedIn</a></li>
-        <li><a class="footer-links">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/maggieisgreene/" class="footer-links">LinkedIn</a></li>
+        <li><a href="https://github.com/maggieisgreene" class="footer-links">Github</a></li>
         <li><a class="footer-links">Contact Me</a></li>
     </ul>
   </footer>
 
   <div class="modal animated slideInRight slow" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog modal-full" role="document">
-          <div class="modal-content">
-              <div class="modal-body d-flex justify-content-between modal-body-edit" id="result">
-                <div id="modal-button-container" class="p-4">
-                  <h1 id="topModalButton" class="nav-modal-buttons"><a id="modalToHome">Home</a></h1>
-                  <h1 class="nav-modal-buttons"><a id="navToBio">Bio</a></h1>
-                  <h1 class="nav-modal-buttons"><a id="navToTechnologies">Technologies</a></h1>
-                  <h1 class="nav-modal-buttons"><a id="navToProjects">Projects</a></h1>
-                  <a data-dismiss="modal"><h1 class="nav-modal-buttons color-pop">Close</h1></a>
-                </div>
-                <div id="modal-image-container">
-                  <img src="https://i.pinimg.com/474x/66/42/1d/66421d3fb066f2f07637f474fd246f2e.jpg">
-                </div>
-              </div>
+    <div class="modal-dialog modal-full" role="document">
+      <div class="modal-content">
+        <div class="modal-body d-flex justify-content-between modal-body-edit" id="result">
+          <div id="modal-button-container" class="p-4">
+            <h1 id="topModalButton" class="nav-modal-buttons"><a id="modalToHome">Home</a></h1>
+            <h1 class="nav-modal-buttons"><a id="navToBio">Bio</a></h1>
+            <h1 class="nav-modal-buttons"><a id="navToTechnologies">Technologies</a></h1>
+            <h1 class="nav-modal-buttons"><a id="navToProjects">Projects</a></h1>
+            <a data-dismiss="modal"><h1 class="nav-modal-buttons color-pop">Close</h1></a>
           </div>
+        <div id="modal-image-container">
+          <img id="modal-image" src="https://i.pinimg.com/474x/66/42/1d/66421d3fb066f2f07637f474fd246f2e.jpg">
+        </div>
+        </div>
       </div>
+    </div>
   </div>
 
 </body>

@@ -8,7 +8,7 @@ body {
 
 #nav-container {
     // background-color: #d73b14;
-    background-color: gainsboro;
+    background-color: #f8f9fa;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,6 @@ body {
     color: #262626;
     display: block;
     font-size: 60px;
-    font-weight: bold;
     height: 100px;
     padding: 15px;
     text-align: center;
@@ -28,7 +27,7 @@ body {
 
 #navLinks {
     // background-color: #d73b14;
-    background-color: gainsboro;
+    background-color: #f8f9fa;
     color: #262626;
     display: flex;
     justify-content: space-around;
@@ -45,12 +44,12 @@ body {
 #aboutMe, #whyCoding {
     // background-color: #d73b14;
     // border: 2px solid #d73b14;
-    background-color: gainsboro;
-    border: 2px solid gainsboro;
+    background-color: #f8f9fa;
+    border: 2px solid #f8f9fa;
     border-radius: 10px;
     display: inline-block;
     font-size: 15px;
-    margin: 10px;
+    margin: 40px;
     padding: 20px;
     text-align: center;
 }
@@ -65,7 +64,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 14px;
     list-style-type: none;
-    margin: 10px;
+    margin: 40px;
     padding: 20px;
 }
 
@@ -75,7 +74,7 @@ body {
 
 #footerLinks {
     // background-color: #d73b14;
-    background-color: gainsboro;
+    background-color: #f8f9fa;
     border-radius: 5px;
     color: #262626;
     display: flex;
@@ -91,29 +90,6 @@ body {
 .footer-links {
     color: #262626;
     text-decoration: none;
-}
-
-#projectsPage {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#card {
-    text-align: center;
-    background-color: whitesmoke;
-    border: 2px solid whitesmoke;
-    border-radius: 10px;
-    font-size: 14px;
-    margin: 10px;
-    // padding: 20px;
-    /* width: 480px; */
-}
-
-#card h3 {
-    // background-color: white;
-    // border: 1px solid white;
-    border-radius: 10px;
-    padding: 4px;
 }
 
 .modal-full {
@@ -139,5 +115,44 @@ body {
 }
 
 .color-pop {
-    color: #d73b14;
+    color: gray;
+}
+
+#projectsPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.card-text,.card-title{
+    color: black;
+}
+
+.card {
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+
+.image{
+    display: block;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.deployed .github {
+    margin: 10px;
+}
+
+#projects-header, #tech-header, #bio-header {
+    color: white;
+    margin-left: 50px;
+}
+
+#modal-image {
+    width: 110%;
 }

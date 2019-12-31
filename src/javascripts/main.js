@@ -4,9 +4,9 @@ import '../styles/main.scss';
 import projects from './components/projects';
 
 const home = document.getElementById('homePage');
-const bio = document.getElementById('bioPage');
-const technologies = document.getElementById('technologiesPage');
-const projectsPage = document.getElementById('projectsPage');
+const bio = document.getElementById('bio-container');
+const technologies = document.getElementById('technologies-container');
+const projectsPage = document.getElementById('projects-container');
 
 document.body.onload = () => {
   bio.style.display = 'none';
