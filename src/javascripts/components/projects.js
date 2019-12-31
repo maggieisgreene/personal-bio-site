@@ -12,17 +12,17 @@ const createProjectCards = () => {
         let domString = '';
         if (project) {
           domString += `
-              <div id="card">
-                <img src=${project.screenshot} class="card-img-top" alt="Image of ${project.title}">
-                  <h2>${project.title}</h2>
-                  <h5>${project.description}</h5>
-                  <p>${project.technologiesUsed}</p>
-                  <div class="card-button-container">
-                    <a href=${project.githubUrl} class="btn btn-light">Github</a>
-                    <a href=${project.url} class="btn btn-light">Deployed</a>
-                  </div>
-              </div>
-            `;
+          <div class="project-card text-center col-6">
+            <div class="card">
+              <img src="${project.screenshot}" class="card-img-top image rounded" alt="Image of ${project.title}">
+                <div class="card-body">
+                  <h2 class="card-title">${project.title}</h2>
+                  <p class="card-text">${project.technologiesUsed}</p>
+                  <a href=${project.url} role="button" class="btn btn-light deployed">Deployed</a>
+                  <a href=${project.githubUrl} role="button" class="btn btn-light github">Github</a>
+                </div>
+            </div>
+          </div>`;
         }
         printToDom(domString, 'projectsPage');
       });

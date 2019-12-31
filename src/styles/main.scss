@@ -19,7 +19,6 @@ body {
     color: #262626;
     display: block;
     font-size: 60px;
-    font-weight: bold;
     height: 100px;
     padding: 15px;
     text-align: center;
@@ -69,10 +68,6 @@ body {
     padding: 20px;
 }
 
-#projectsPage {
-    margin: 30px;
-}
-
 #learnedThings li:before { 
     content: "- ";
 }
@@ -95,28 +90,6 @@ body {
 .footer-links {
     color: #262626;
     text-decoration: none;
-}
-
-#projectsPage {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#card {
-    text-align: center;
-    background-color: whitesmoke;
-    border: 2px solid whitesmoke;
-    border-radius: 10px;
-    font-size: 14px;
-    margin: 10px;
-    /* width: 480px; */
-}
-
-#card h3 {
-    // background-color: white;
-    // border: 1px solid white;
-    border-radius: 10px;
-    padding: 4px;
 }
 
 .modal-full {
@@ -143,4 +116,43 @@ body {
 
 .color-pop {
     color: gray;
+}
+
+#projectsPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.card-text,.card-title{
+    color: black;
+}
+
+.card {
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+
+.image{
+    display: block;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.deployed .github {
+    margin: 10px;
+}
+
+#projects-header, #tech-header, #bio-header {
+    color: white;
+    margin-left: 50px;
+}
+
+#modal-image {
+    width: 110%;
 }
