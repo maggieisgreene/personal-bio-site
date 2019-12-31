@@ -1,34 +1,50 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: #fbf9f8;
+    background-color: black;
     color: #262626;
     font-family: 'Karla', sans-serif;
 }
 
-#main-header {
+#nav-container {
+    // background-color: #d73b14;
+    background-color: gainsboro;
+    border-radius: 5px;
     display: flex;
-    /* font-family: 'Alfa Slab One', cursive; */
-    font-size: 40px;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 40px;
 }
 
-/* a:hover {
-    text-decoration: underline;
-  } */
+#main-header, #navToModal {
+    color: #262626;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
 
 #navLinks {
-    background-color: #fbf9f8;
+    // background-color: #d73b14;
+    background-color: gainsboro;
     color: #262626;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    margin: 20px;
-    font-size: 14px;
-    text-decoration: none;
+    margin: 10px;
+}
+
+#homePage {
+    background-image: url('https://i.pinimg.com/564x/67/e1/4c/67e14c7aceb985d7bbece2665c818e03.jpg');
+    background-repeat: repeat-x;
+    height: 700px;
 }
 
 #aboutMe, #whyCoding {
+    // background-color: #d73b14;
+    // border: 2px solid #d73b14;
     background-color: gainsboro;
     border: 2px solid gainsboro;
     border-radius: 10px;
@@ -40,6 +56,8 @@ body {
 }
 
 #learnedThings {
+    // background-color: #d73b14;
+    // border: 2px solid #d73b14;
     background-color: gainsboro;
     border: 2px solid gainsboro;
     border-radius: 10px;
@@ -56,19 +74,23 @@ body {
 }
 
 #footerLinks {
-    background-color: #fbf9f8;
+    // background-color: #d73b14;
+    background-color: gainsboro;
+    border-radius: 5px;
     color: #262626;
     display: flex;
+    font-size: 17px;
+    height: 50px;
     justify-content: space-around;
     list-style-type: none;
-    margin: 20px;
-    font-size: 14px;
+    margin: 40px;
+    padding: 10px;
     text-decoration: none;
 }
 
 .footer-links {
-    text-decoration: none;
     color: #262626;
+    text-decoration: none;
 }
 
 #projectsPage {
@@ -78,18 +100,44 @@ body {
 
 #card {
     text-align: center;
-    background-color: gainsboro;
-    border: 2px solid gainsboro;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
     border-radius: 10px;
     font-size: 14px;
     margin: 10px;
-    padding: 20px;
+    // padding: 20px;
     /* width: 480px; */
 }
 
 #card h3 {
-    background-color: white;
-    border: 1px solid white;
+    // background-color: white;
+    // border: 1px solid white;
     border-radius: 10px;
     padding: 4px;
+}
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+
+.nav-modal-buttons {
+    color: white;
+    font-size: 60px;
+}
+
+.modal-body-edit {
+    background-color: black;
+}
+
+#topModalButton {
+    margin-top: 140px;
+}
+
+.color-pop {
+    color: #d73b14;
 }
