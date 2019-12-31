@@ -2,6 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import '../styles/main.scss';
 import projects from './components/projects';
+import tech from './components/technologies';
 
 const home = document.getElementById('homePage');
 const bio = document.getElementById('bio-container');
@@ -77,6 +78,7 @@ const showHomeEvent = (event) => {
 
 const init = () => {
   projects.createProjectCards();
+  tech.printTech();
   $('#navToBio').click(showBioEvent);
   $('#navToTechnologies').click(showTechnologiesEvent);
   $('#navToProjects').click(showProjectsEvent);

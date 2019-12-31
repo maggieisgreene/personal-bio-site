@@ -156,3 +156,25 @@ body {
 #modal-image {
     width: 110%;
 }
+
+#technologiesPage {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.techs {
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+
+    .tech-image {
+        font-size: 130px;
+    }
+
+    .tech-name {
+        color: whitesmoke;
+    }
+}
