@@ -1,0 +1,62 @@
+{
+  "technology-1": {
+    "name": "HTML5",
+    "imageTag": "<i class='fab fa-html5'></i>",
+    "webpageUrl": "https://html.spec.whatwg.org/multipage/"
+  },
+  "technology-2": {
+    "name": "CSS3",
+    "imageTag": "<i class='fab fa-css3-alt'></i>",
+    "webpageUrl": "https://www.w3.org/Style/CSS/Overview.en.html"
+  },
+  "technology-3": {
+    "name": "JavaScript",
+    "imageTag": "<i class='fab fa-js-square'></i>",
+    "webpageUrl": "https://www.javascript.com/"
+  },
+  "technology-4": {
+    "name": "Bootstrap",
+    "imageTag": "<i class='fab fa-bootstrap'></i>",
+    "webpageUrl": "https://getbootstrap.com/docs/4.3/getting-started/introduction/"
+  },
+  "technology-5": {
+    "name": "Git",
+    "imageTag": "<i class='fab fa-git-square'></i>",
+    "webpageUrl": "https://git-scm.com/"
+  },
+  "technology-6": {
+    "name": "GitHub",
+    "imageTag": "<i class='fab fa-github-square'></i>",
+    "webpageUrl": "https://github.com/"
+  },
+  "technology-7": {
+    "name": "SASS",
+    "imageTag": "<i class='fab fa-sass'></i>",
+    "webpageUrl": "https://sass-lang.com/"
+  },
+  "technology-8": {
+    "name": "jQuery",
+    "imageTag": "<i class='fas fa-file-signature'></i>",
+    "webpageUrl": "https://jquery.com/"
+  },
+  "technology-9": {
+    "name": "VS Code",
+    "imageTag": "<i class='fas fa-cube'></i>",
+    "webpageUrl": "https://code.visualstudio.com/"
+  },
+  "technology-10": {
+    "name": "Firebase",
+    "imageTag": "<i class='fas fa-fire'></i>",
+    "webpageUrl": "https://firebase.google.com/"
+  },
+  "technology-11": {
+    "name": "React",
+    "imageTag": "<i class='fab fa-react'></i>",
+    "webpageUrl": "https://reactjs.org/"
+  },
+  "technology-12": {
+    "name": "Webpack",
+    "imageTag": "<i class='fas fa-wrench'></i>",
+    "webpageUrl": "https://webpack.js.org/"
+  }
+}
