@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import 'bootstrap';
 import '../styles/main.scss';
 import projects from './components/projects';
@@ -38,8 +39,48 @@ document.body.addEventListener('click', (event) => {
   }
 });
 
+const showBioEvent = (event) => {
+  event.preventDefault();
+  bio.style.display = '';
+  home.style.display = 'none';
+  technologies.style.display = 'none';
+  projectsPage.style.display = 'none';
+  $('#myModal').modal('hide');
+};
+
+const showTechnologiesEvent = (event) => {
+  event.preventDefault();
+  bio.style.display = 'none';
+  home.style.display = 'none';
+  technologies.style.display = '';
+  projectsPage.style.display = 'none';
+  $('#myModal').modal('hide');
+};
+
+const showProjectsEvent = (event) => {
+  event.preventDefault();
+  bio.style.display = 'none';
+  home.style.display = 'none';
+  technologies.style.display = 'none';
+  projectsPage.style.display = '';
+  $('#myModal').modal('hide');
+};
+
+const showHomeEvent = (event) => {
+  event.preventDefault();
+  bio.style.display = 'none';
+  home.style.display = '';
+  technologies.style.display = 'none';
+  projectsPage.style.display = 'none';
+  $('#myModal').modal('hide');
+};
+
 const init = () => {
   projects.createProjectCards();
+  $('#navToBio').click(showBioEvent);
+  $('#navToTechnologies').click(showTechnologiesEvent);
+  $('#navToProjects').click(showProjectsEvent);
+  $('#modalToHome').click(showHomeEvent);
 };
 
 init();
