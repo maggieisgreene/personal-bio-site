@@ -18,8 +18,8 @@ const createProjectCards = () => {
                 <div class="card-body">
                   <h2 class="card-title">${project.title}</h2>
                   <p class="card-text">${project.technologiesUsed}</p>
-                  <a href=${project.url} role="button" class="btn btn-light deployed">Deployed</a>
-                  <a href=${project.githubUrl} role="button" class="btn btn-light github">Github</a>
+                  <a href=${project.url} target="_blank" role="button" class="btn btn-light deployed">Deployed</a>
+                  <a href=${project.githubUrl} target="_blank" role="button" class="btn btn-light github">Github</a>
                 </div>
             </div>
           </div>`;
