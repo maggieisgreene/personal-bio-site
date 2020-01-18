@@ -16,7 +16,7 @@ document.body.onload = () => {
 };
 
 document.body.addEventListener('click', (event) => {
-  event.preventDefault();
+  // event.preventDefault();
   if (event.target.id === 'navToBio') {
     bio.style.display = '';
     home.style.display = 'none';
