@@ -10,7 +10,7 @@
   },
   "project-2": {
     "title": "Sports Roster", 
-    "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png", 
+    "screenshot": "https://raw.githubusercontent.com/maggieisgreene/personal-bio-site/master/assets/sports-roster-main.png", 
     "description": "This project is a team-building applcation to track your players by adding new player, deleting players, or updating existing player's!",
     "technologiesUsed": "HTML, SCSS, REACT, JSX, jQuery, Version Control with Github",
     "available": true,
@@ -19,7 +19,7 @@
 },
     "project-3": {
       "title": "Vending Machine", 
-      "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png", 
+      "screenshot": "https://raw.githubusercontent.com/maggieisgreene/personal-bio-site/master/assets/vending-machine-preview.png", 
       "description": "This project is a mockup of a vending machine: add snacks, remove snacks, update snacks -- this application does it all.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
       "available": true,
