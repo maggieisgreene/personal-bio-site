@@ -27,13 +27,13 @@
       "githubUrl": "https://github.com/maggieisgreene/pinterest"
   },
   "project-4": {
-    "title": "Pinteresting", 
-    "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png", 
-    "description": "This project is a mockup of Pinterest. Login and create boards to save unlimited inspiration.",
+    "title": "La Baguette", 
+    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png", 
+    "description": "This project is used for a restaurant to track all things needed to run a restaurant, like stock, reservations, and more.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
     "available": true,
-    "url": "https://pinterest-c2e77.firebaseapp.com/",
-    "githubUrl": "https://github.com/maggieisgreene/pinterest"
+    "url": "https://le-baguette-af839.firebaseapp.com/",
+    "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
 },
   "project-5": {
     "title": "Jurassic Park", 
