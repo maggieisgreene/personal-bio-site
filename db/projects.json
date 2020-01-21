@@ -9,22 +9,22 @@
       "githubUrl": "https://github.com/maggieisgreene/pinterest"
   },
   "project-2": {
-    "title": "Pinteresting", 
+    "title": "Sports Roster", 
     "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png", 
-    "description": "This project is a mockup of Pinterest. Login and create boards to save unlimited inspiration.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
+    "description": "This project is a team-building applcation to track your players by adding new player, deleting players, or updating existing player's!",
+    "technologiesUsed": "HTML, SCSS, REACT, JSX, jQuery, Version Control with Github",
     "available": true,
-    "url": "https://pinterest-c2e77.firebaseapp.com/",
-    "githubUrl": "https://github.com/maggieisgreene/pinterest"
+    "url": "https://sports-roster-bc493.firebaseapp.com/",
+    "githubUrl": "https://github.com/maggieisgreene/sports-roster"
 },
     "project-3": {
-      "title": "Pinteresting", 
+      "title": "Vending Machine", 
       "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png", 
-      "description": "This project is a mockup of Pinterest. Login and create boards to save unlimited inspiration.",
+      "description": "This project is a mockup of a vending machine: add snacks, remove snacks, update snacks -- this application does it all.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
       "available": true,
-      "url": "https://pinterest-c2e77.firebaseapp.com/",
-      "githubUrl": "https://github.com/maggieisgreene/pinterest"
+      "url": "https://vending-machine-e13ea.firebaseapp.com/",
+      "githubUrl": "https://github.com/maggieisgreene/vending-machine"
   },
   "project-4": {
     "title": "La Baguette", 
