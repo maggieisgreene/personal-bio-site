@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css?family=Contrail+One|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Changa+One|Roboto&display=swap");
 
 body {
   background-color: black;
@@ -20,7 +20,7 @@ body {
 #navToModal {
   color: #262626;
   display: block;
-  font-family: "Contrail One", sans-serif;
+  font-family: "Changa One", sans-serif;
   font-size: 60px;
   height: 90px;
   margin-top: 5px;
@@ -122,6 +122,10 @@ body {
 
 .color-pop {
   color: gray;
+}
+
+.font-pop {
+  font-family: "Changa One", sans-serif;
 }
 
 #projectsPage {
