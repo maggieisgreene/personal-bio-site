@@ -1,47 +1,47 @@
 {
   "project-1": {
-      "title": "Pinteresting", 
-      "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png", 
-      "description": "This project is a mockup of Pinterest. Login and create boards to save unlimited inspiration.",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
-      "available": true,
-      "url": "https://pinterest-c2e77.firebaseapp.com/",
-      "githubUrl": "https://github.com/maggieisgreene/pinterest"
+    "title": "Pinteresting",
+    "screenshot": "https://raw.githubusercontent.com/maggieisgreene/pinterest/master/src/assets/screenshots/pinterest-loggedInBoards.png",
+    "description": "This project is a mockup of Pinterest. Login and create boards to save unlimited inspiration.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
+    "available": true,
+    "url": "https://pinterest-c2e77.firebaseapp.com/",
+    "githubUrl": "https://github.com/maggieisgreene/pinterest"
   },
   "project-2": {
-    "title": "Sports Roster", 
-    "screenshot": "https://raw.githubusercontent.com/maggieisgreene/personal-bio-site/master/assets/sports-roster-main.png", 
-    "description": "This project is a team-building applcation to track your players by adding new player, deleting players, or updating existing player's!",
+    "title": "Sports Roster",
+    "screenshot": "https://raw.githubusercontent.com/maggieisgreene/personal-bio-site/master/assets/sports-roster-main.png",
+    "description": "This project is a team-building application to track your players by adding new player, deleting players, or updating existing player's!",
     "technologiesUsed": "HTML, SCSS, REACT, JSX, jQuery, Version Control with Github",
     "available": true,
     "url": "https://sports-roster-bc493.firebaseapp.com/",
     "githubUrl": "https://github.com/maggieisgreene/sports-roster"
-},
-    "project-3": {
-      "title": "Vending Machine", 
-      "screenshot": "https://raw.githubusercontent.com/maggieisgreene/personal-bio-site/master/assets/vending-machine-preview.png", 
-      "description": "This project is a mockup of a vending machine: add snacks, remove snacks, update snacks -- this application does it all.",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
-      "available": true,
-      "url": "https://vending-machine-e13ea.firebaseapp.com/",
-      "githubUrl": "https://github.com/maggieisgreene/vending-machine"
+  },
+  "project-3": {
+    "title": "Vending Machine",
+    "screenshot": "https://raw.githubusercontent.com/maggieisgreene/personal-bio-site/master/assets/vending-machine-preview.png",
+    "description": "This project is a mockup of a vending machine: add snacks, remove snacks, update snacks -- this application does it all.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
+    "available": true,
+    "url": "https://vending-machine-e13ea.firebaseapp.com/",
+    "githubUrl": "https://github.com/maggieisgreene/vending-machine"
   },
   "project-4": {
-    "title": "La Baguette", 
-    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png", 
+    "title": "La Baguette",
+    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png",
     "description": "This project is used for a restaurant to track all things needed to run a restaurant, like stock, reservations, and more.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, jQuery, Version Control with Github",
     "available": true,
     "url": "https://le-baguette-af839.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
-},
+  },
   "project-5": {
-    "title": "Jurassic Park", 
-    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png", 
+    "title": "Jurassic Park",
+    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png",
     "description": "This application is built for the Jurassic World Theme Park. For owner-side use.",
     "technologiesUsed": "HTML, SASS, Vanilla JavaScript, jQuery, Version Control with Github",
     "available": true,
     "url": "https://jurassic-park-26ffa.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
-}
+  }
 }
